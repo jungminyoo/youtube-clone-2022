@@ -4,7 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>YouTube</title>
   </head>
-  <body></body>
+  <body>
+    <header id="header">
+      <div class="header_left">
+        <button class="header_menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <a href="/" class="header_logo">
+          <img src="img/youtube_emblem.png" alt="youtube_emblem" />
+          <span>YouTube</span>
+        </a>
+      </div>
+      <div id="header_search">
+        <form action="/" name="search" method="GET" class="header_search_form">
+          <input type="text" name="search" placeholder="검색" />
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+        <button><i class="fa-solid fa-microphone"></i></button>
+      </div>
+      <div id="header_right">
+        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+        <button>
+          <i class="fa-solid fa-circle-user"></i><span>로그인</span>
+        </button>
+      </div>
+    </header>
+    <nav></nav>
+    <main></main>
+    <script
+      src="https://kit.fontawesome.com/b2a7e4c847.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
